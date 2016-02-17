@@ -8,6 +8,7 @@ NOTE
 To set up the code sample:
  - The MATLAB installation path I used was C:\MATLAB and the SDK installation path was C:\Program Files (x86)\Intel\RSSDK. Note that the include directories and library directories will need to be changed if your SDK and MATLAB installation paths are different. 
  - The file location I use to put the entire code sample RealSenseImaq was C:\My_Adaptor\RealSenseImaq. 
+ - You will also need to set an environment variable MATLAB in system variables that contains the name of your MATLAB installation folder.
 
 To build the DLL from this code sample:
  - First run Microsoft Visual Studio* as administrator and open the RealSenseImaq solution. You must ensure that “x64” is specified under the platform setting in the project properties. 
